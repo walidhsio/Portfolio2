@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: grey;
+    color:black;
+  }
+  
+  header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+  }
+  
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  article {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  article header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  article header h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .article .date {
+    font-size: 1.1rem;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    margin-bottom: 30px;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .content {
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  
+  blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #0080ff;
+    background-color: #f6f6f6;
+    font-style: italic;
+  }
+
+  .suggestions {
+    margin-top: 50px;
+  }
+  
+  .suggestions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .suggestions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .suggestions li {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .suggestions img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .suggestions a {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .suggestions a:hover {
+    color: #0077ff;
+  }
+  
+
+  footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
